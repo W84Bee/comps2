@@ -5,23 +5,24 @@ import Panel from "./Panel";
 function Dropdown({ options, value, onChange }) {
     const [isOpen, setIsOpen] = useState(false);
 
-    {/* useRef
+    /* useRef
         - Allows a component to get a reference to DOM element that it creates
         - 95% of the time used with DOM elements, but can hold a reference to any value.
         IMPLEMENTATION
             1. Create a ref at the top of your component calling 'useRef'.
             2. Assign the ref to a JSX element as a prop called 'ref'.
             3. Access that DOM element with 'ref.current'.
-     */};
+     */
 
     const divEl = useRef();
 
     useEffect(() => {
         const handler = (event) => {
             if (!divEl.current) {
+                // eslint-disable-next-line
                 return;
             }
-            
+
             if (!divEl.current.contains(event.target)) {
               setIsOpen(false);
             }
