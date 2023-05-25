@@ -19,7 +19,6 @@ function Dropdown({ options, value, onChange }) {
     useEffect(() => {
         const handler = (event) => {
             if (!divEl.current) {
-                // eslint-disable-next-line
                 return;
             }
 
