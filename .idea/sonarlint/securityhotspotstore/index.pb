@@ -33,8 +33,3 @@ F
 src/pages/ModalPage.js,1/a/1a46639e3c67e321f93d3aa7f50fae187f75b288
 F
 src/components/Link.js,6/0/6027127feb8771121ace08e9e8cd691ae7921389
-:
-
-src/App.js,1/e/1e43fa63aecd2127be034b3fb9d4caa172275714
-I
-src/components/SideBar.js,3/d/3d7befde2255ffee3b4ee8977d0df63950d18368
