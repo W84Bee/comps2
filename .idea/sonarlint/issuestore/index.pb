@@ -17,8 +17,6 @@ G
 src/components/Panel.js,3/5/35cccd219bc7ba4613ab4dd51f545e81eb8c8be4
 <
 src/index.js,f/9/f900edc44cb929c2267a16100a32851f6d5b477d
-H
-src/components/Button.js,b/5/b5840b28802b42e734ba24005ac8c27c430bcce3
 G
 src/pages/ButtonPage.js,1/2/12ffb7e5a07c4f66fdd96a7f0318b1d4ecc4b2d2
 K
