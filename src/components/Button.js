@@ -20,7 +20,6 @@ function Button({
         'border-yellow-400 bg-yellow-400': warning,
         'border-red-500 bg-red-500': danger,
         'rounded-full': rounded,
-        'text-white': !outline,
         'bg-white': outline,
         'text-blue-500': outline && primary,
         'text-gray-900': outline && secondary,
